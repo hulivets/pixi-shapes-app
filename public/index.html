@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXI SHAPES</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="display-wrapper">
+                <div class="display">
+                    Number of current shapes:
+                    <span id="shapes-quantity"></span>
+                </div>
+                <div class="display">
+                    Surface area occupied by shapes:
+                    <span id="shapes-area"></span>
+                </div>
+            </div>
+            <canvas id="pixi-shapes"></canvas>
+            <div class="btn-wrapper">
+                <div class="btn-block">
+                    <button class="btn btn-decrease" id="dec-shapes-btn">-</button>
+                    <button class="btn btn-increase" id="inc-shapes-btn">+</button>
+                    <input type="text" value="0" class="display-value" id="shapes-per-second-input" readonly>
+                </div>
+                <div class="btn-block">
+                    <button class="btn btn-decrease" id="dec-gravity-btn">-</button>
+                    <button class="btn btn-increase" id="inc-gravity-btn">+</button>
+                    <input type="text" value="0" class="display-value" id="gravity-input" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
